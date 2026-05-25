@@ -46,10 +46,8 @@ The API supports creating, reading, updating, and deleting tasks, with optional 
 
 The application follows a standard layered architecture:
 
-```
 <img width="1263" height="847" alt="image" src="https://github.com/user-attachments/assets/557ee939-643d-4218-a6e3-c6959b629846" />
 
-```
 
 Security is handled by a custom `OncePerRequestFilter` (`JwtAuthFilter`) that intercepts every request, checks the Redis blacklist, validates the JWT, and populates the `SecurityContext`. The session policy is fully stateless.
 
