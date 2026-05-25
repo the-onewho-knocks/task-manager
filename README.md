@@ -1,4 +1,4 @@
-# Task Manager API
+# TaskFlow API
 
 A RESTful task management API built with Spring Boot 3, secured with JWT authentication and Redis-backed token invalidation. Exposes a fully documented OpenAPI interface via Swagger UI.
 
